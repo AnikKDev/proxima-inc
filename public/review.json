@@ -1,0 +1,44 @@
+[
+    {
+        "id": "6249b7ed888dd445a87844d1",
+        "img": "",
+        "comment": "This is a very good product",
+        "name": "Jones Briggs",
+        "rating": "5/5"
+    },
+    {
+        "id": "6249b7edf882f58509a1cd41",
+        "img": "",
+        "comment": "Highly recomending it",
+        "name": "Shelly Gibbs",
+        "rating": "4.8/5"
+    },
+    {
+        "id": "6249b7edb5f9c8261669d1fb",
+        "img": "",
+        "comment": "totally satisfied with the product",
+        "name": "Lawson Palmer",
+        "rating": "5/5"
+    },
+    {
+        "id": "6249b7ed0db7de28bdd2b588",
+        "img": "",
+        "comment": "Design was great. But expected much better performance. But it's not the worst",
+        "name": "Daugherty Holden",
+        "rating": "3.5/5"
+    },
+    {
+        "id": "6249b7edf997ee7ee2397714",
+        "img": "",
+        "comment": "I want refund. Totally bad",
+        "name": "Underwood Kinney",
+        "rating": "1.2/5"
+    },
+    {
+        "id": "6249b7ed85725aec27a357ca",
+        "img": "",
+        "comment": "Best in the budget",
+        "name": "Terri Bryant",
+        "rating": "4.5/5"
+    }
+]
