@@ -1,0 +1,18 @@
+.home-container {
+    margin-top: 85px;
+}
+
+.home-img img {
+    border-radius: 5px;
+}
+
+.home-heading h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3.6em;
+}
+
+.home-heading h3 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.4em;
+}

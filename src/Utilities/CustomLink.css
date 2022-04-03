@@ -1,0 +1,8 @@
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 5px 15px;
+    margin: 7px 5px;
+    font-weight: bold;
+}
