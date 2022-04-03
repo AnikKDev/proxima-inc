@@ -1,0 +1,19 @@
+.review-container {
+    background-color: #ECEAE3;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Caveat', cursive;
+    font-size: 1.6em;
+    color: #511A15;
+}
+
+.comments {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.rating {
+    font-family: 'Arima Madurai', cursive;
+}

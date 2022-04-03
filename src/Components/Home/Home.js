@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Review from '../Review/Review';
 import './Home.css';
 import background from './pakata-goh-RDolnHtjVCY-unsplash.jpg';
 const Home = () => {
+    // customer review
+
+    const [reviews, setReviews] = useState([]);
+    useEffect(() => {
+        fetch('review.json')
+            .then(res => res.json())
+            .then(data => setReviews(data))
+    }, []);
+    console.log(reviews);
     return (
         <div className='container home-container'>
             <div className="row gx-0 align-items-center">
@@ -12,6 +22,15 @@ const Home = () => {
                 </div>
                 <div className="col-md-4 home-img">
                     <img className='img-fluid' src={background} alt="" />
+                </div>
+            </div>
+
+            <div className='mt-5 pt-5'>
+                <h2 className='text-center fw-bold'>Customer Reviews ({reviews.length})</h2>
+                <div className='row mt-5'>
+                    {
+                        reviews.map(review => <Review review={review} key={review.id}></Review>)
+                    }
                 </div>
             </div>
         </div>
