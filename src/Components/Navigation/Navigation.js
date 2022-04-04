@@ -1,14 +1,13 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import CustomLink from '../../Utilities/CustomLink';
 import './Navigation.css';
 
 const Navigation = () => {
     return (
-        <div>
+        <div >
             <Navbar bg="light" variant="light">
-                <Container>
+                <Container style={{ height: "60px" }}>
                     <Nav className="mx-auto nav-links">
                         <CustomLink to="/">Home</CustomLink>
                         <CustomLink to="/reviews">Reviews</CustomLink>

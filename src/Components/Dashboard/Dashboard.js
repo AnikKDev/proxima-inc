@@ -9,7 +9,7 @@ const Dashboard = () => {
 
     return (
         <div className='mt-5'>
-            <div className="row">
+            <div className="row gx-0">
                 <MonthWiseSell></MonthWiseSell>
                 <InvestMentVsRevenue></InvestMentVsRevenue>
                 <InvestmentVsRevenueBar></InvestmentVsRevenueBar>

@@ -1,0 +1,19 @@
+.error-container {
+    height: calc(100vh - 76px);
+}
+
+.home-btn {
+    margin-top: 40px;
+    border: 1px solid #ed7440;
+
+    padding: 7px 15px;
+    font-weight: 500;
+    background-color: #ed7440;
+    color: white;
+
+}
+
+.home-btn:hover {
+    color: #ed7440;
+    background-color: #fff;
+}

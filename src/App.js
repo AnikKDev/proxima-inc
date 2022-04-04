@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Navigation from './Components/Navigation/Navigation';
-import Reviews from './Components/Reviews/Reviews';
+import ReviewRoute from './Components/Reviews/Reviews';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Blogs from './Components/Blogs/Blogs';
 import NotFound from './Components/NotFound/NotFound';
@@ -15,10 +15,10 @@ function App() {
       <Navigation></Navigation>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/reviews' element={<Reviews></Reviews>}></Route>
+        <Route path='/reviews' element={<ReviewRoute></ReviewRoute>}></Route>
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-        <Route path='/*' element={<NotFound></NotFound>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );

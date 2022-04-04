@@ -1,17 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import useReviews from '../../Hooks/useReviews';
 import Review from '../Review/Review';
 import './Home.css';
 import background from './pakata-goh-RDolnHtjVCY-unsplash.jpg';
 const Home = () => {
     // customer review
 
-    const [reviews, setReviews] = useState([]);
-    useEffect(() => {
-        fetch('review.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, []);
+    const [reviews, setReviews] = useReviews();
+
     const navigate = useNavigate();
     // console.log(reviews);
     return (
