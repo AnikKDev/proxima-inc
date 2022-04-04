@@ -12,6 +12,7 @@ import NotFound from './Components/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
+      {/* header */}
       <Navigation></Navigation>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

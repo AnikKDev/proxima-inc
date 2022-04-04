@@ -10,6 +10,7 @@ const NotFound = () => {
                 <h1>404</h1>
                 <h3>This site can't be reached!</h3>
                 <h6>Check if there is a typo in {location?.search + location?.pathname}</h6>
+                {/* it will take to home route */}
                 <button onClick={() => navigate('/')} className='home-btn btn'>Take Me Home</button>
             </div>
         </div>

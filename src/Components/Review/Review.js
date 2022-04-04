@@ -4,6 +4,7 @@ import './Review.css';
 const Review = ({ review }) => {
     const { comment, name, rating } = review;
     return (
+        // reviews of home route
         <div className=" col-md-4 mb-5 d-flex justify-content-center">
             <Card className="review-container" style={{ width: '18rem' }}>
                 <Card.Body>

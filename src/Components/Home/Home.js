@@ -6,7 +6,7 @@ import './Home.css';
 import background from './pakata-goh-RDolnHtjVCY-unsplash.jpg';
 const Home = () => {
     // customer review
-
+    // custom hook
     const [reviews, setReviews] = useReviews();
 
     const navigate = useNavigate();
@@ -23,7 +23,7 @@ const Home = () => {
                     <img className='img-fluid' src={background} alt="" />
                 </div>
             </div>
-
+            {/* 3 reviews in home */}
             <div className='mt-5 pt-5'>
                 <h2 className='text-center fw-bold'>Customer Reviews ({reviews.length})</h2>
                 <div className='row mt-5'>

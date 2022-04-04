@@ -10,6 +10,7 @@ const Navigation = () => {
                 <Container style={{ height: "60px" }}>
                     <Nav className="mx-auto nav-links">
                         <CustomLink to="/">Home</CustomLink>
+                        <CustomLink to="/home">Home</CustomLink>
                         <CustomLink to="/reviews">Reviews</CustomLink>
                         <CustomLink to="/dashboard">Dashboard</CustomLink>
                         <CustomLink to="/blogs">Blogs</CustomLink>
